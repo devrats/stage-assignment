@@ -1,0 +1,32 @@
+.wrapper {
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileContainer {
+  width: 300px;
+  min-height: 90vh;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 23px;
+  color: #262626;
+}
